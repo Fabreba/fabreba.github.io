@@ -23,13 +23,14 @@
     <!-- Botões para trocar os modelos -->
     <div style="position: absolute; top: 10px; left: 10px;">
       <button onclick="changeModel('mesa.glb')">Mesa</button>
-      <button onclick="changeModel('mesa_larga.glb')">Cadeira</button>
+      <button onclick="changeModel('mesa_larga.glb')">mesa_larga</button>
     </div>
 
     <script>
       function changeModel(modelName) {
         const modelEntity = document.getElementById('model');
         modelEntity.setAttribute('gltf-model', `url(model/${modelName})`);
+        console.log('Modelo trocado para:', modelName)
       }
     </script>
   </body>

@@ -11,10 +11,10 @@
       <a-marker preset="hiro">
         <!-- Carregando o modelo GLTF 2.0 -->
         <a-entity
-          id="model"
+          id="modelo"
           gltf-model="url(model/mesa.glb)"
           scale="0.3 0.3 0.3"
-          position="0 0 7">
+          position="0 0 0">
         </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
@@ -23,16 +23,14 @@
     <!-- Botões para trocar os modelos -->
     <div style="position: absolute; top: 10px; left: 10px;">
       <button onclick="changeModel('mesa.glb')">Mesa</button>
-      <button onclick="changeModel('mesa_larga.glb')">mesa_larga</button>
+      <button onclick="changeModel('cadeira.glb')">Cadeira</button>
     </div>
 
     <script>
       function changeModel(modelName) {
-        const modelEntity = document.getElementById('model');
+        const modelEntity = document.getElementById('modelo');
         modelEntity.setAttribute('gltf-model', `url(model/${modelName})`);
-        console.log('Modelo trocado para:', modelName)
       }
     </script>
   </body>
 </html>
-

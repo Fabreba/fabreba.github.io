@@ -1,5 +1,11 @@
 # Estimador de Espaço para Móveis com A-Frame
 
+## Integrantes
+- Fabricio Silva
+- Jairo Júnior
+- Wagner Filho
+- Victor Sabaa
+
 ## Sobre o Projeto
 
 Este projeto utiliza o A-Frame, uma framework web para realidade virtual, para criar uma aplicação interativa que ajuda os usuários a estimar o tamanho dos móveis em suas casas antes de fazerem uma compra. Isso soluciona um problema comum enfrentado por muitos ao mobiliar suas casas: a dificuldade de visualizar como os móveis irão se encaixar em seus espaços disponíveis.
